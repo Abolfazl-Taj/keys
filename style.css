@@ -34,23 +34,14 @@ body {
  font-size: 60px ;
  width: 70px;
  font-weight: bold;
- box-shadow: 1px 1px 10px 0.25px #EEE0C9;
+ box-shadow: 1px 1px 10px 0.25px #EEE0C9 
+ , inset 1px 1px 2px 1px #EEE0C9;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  cursor: pointer;
  border: none;
  transition: all 0.5ms ease-out;
 }
-.space{
- width: 600px;
- height: 100px;
- background-color: #445069;
- font-size: 60px ;
- box-shadow: 1px 1px 10px 0.25px #EEE0C9;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- border: none;
- border-radius: 10px;
- color: #272829;
-}
+
 .add{
   color: #61677A;
   transform: scale(1.3);
